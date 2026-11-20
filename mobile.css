@@ -1,15 +1,8 @@
-/*
- * Everforest Dark Hard for AO3
- * Adaptation and maintenance: NeNekokun
- * Based on: Rosé Pine AO3 skin by BlackBatCat
- * Original repository: https://github.com/Wolfbatcat/ao3-rose-pine
- * Original base: neos by ZerafinaCSS, https://github.com/ZerafinaCSS/neos
- * Current repository: https://github.com/DiegoF824/ao3-everforest
- */
-/*
+.site-skin-metadata {
+  content: "
 ==============================================================
 
-                    🌲🌲🌲 Everforest Dark Hard 🌲🌲🌲
+                    🌲🌲🌲 Everforest 🌲🌲🌲 
           MOBILE / NARROW SCREENS (max-width: 42em)
                       By NeNekokun
 
@@ -17,10 +10,10 @@
 SKIN METADATA
 ==============================================================
 
-  - Skin:         Everforest Dark Hard (Card Layout — Mobile)
-  - File:         mobile.css
+  - Skin:         Everforest (Card Layout — Mobile)
+  - File:         mobile_card.css
   - Author:       NeNekokun
-  - Tumblr:       blackbatcats (original author)
+  - Tumblr:       blackbatcats
   - License:      MIT
   - Updated:      2026-05-12 06:55 UTC
 
@@ -30,9 +23,10 @@ SKIN METADATA
   - Base:         'neos' by ZerafinaCSS               https://archiveofourown.org/works/65849527
 
   - Inspired by:  'Archive 2.0 skin' by AO3           https://archiveofourown.org/skins/873
-                  'Tide' by ElectricAlice             https://github.com/electricalice/Ao3-tide
+                  'Tide' by ElectricAlice             https://github.com/DiegoF824/ao3-everforest
                   'Flat Squares Skin' by milkfatzero  https://ao3-skins.dreamwidth.org/6156.html
- */
+";
+}
 
 h2.heading,
 h2.heading+h3.heading:not(.landmark) {

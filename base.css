@@ -1,26 +1,19 @@
-/*
- * Everforest Dark Hard for AO3
- * Adaptation and maintenance: NeNekokun
- * Based on: Rosé Pine AO3 skin by BlackBatCat
- * Original repository: https://github.com/Wolfbatcat/ao3-rose-pine
- * Original base: neos by ZerafinaCSS, https://github.com/ZerafinaCSS/neos
- * Current repository: https://github.com/DiegoF824/ao3-everforest
- */
-/*
+.site-skin-metadata {
+  content: "
 ==============================================================
 
-                     🌲🌲🌲 Everforest Dark Hard 🌲🌲🌲
-           A Site Skin for the Archive of Our Own
-                      By NeNekokun
+                     🌲🌲🌲 Everforest 🌲🌲🌲                 
+           A Site Skin for the Archive of Our Own          
+                      By NeNekokun   
 
 ==============================================================
 SKIN METADATA
 ==============================================================
 
-  - Skin:         Everforest Dark Hard (Card Layout)
-  - File:         base.css
+  - Skin:         Everforest (Card Layout)
+  - File:         base_card.css
   - Author:       NeNekokun
-  - Tumblr:       blackbatcats (original author)
+  - Tumblr:       blackbatcats
   - License:      MIT
   - Updated:      2026-05-19 00:53 UTC
 
@@ -30,9 +23,10 @@ SKIN METADATA
   - Base:         'neos' by ZerafinaCSS               https://archiveofourown.org/works/65849527
 
   - Inspired by:  'Archive 2.0 skin' by AO3           https://archiveofourown.org/skins/873
-                  'Tide' by ElectricAlice             https://github.com/electricalice/Ao3-tide
+                  'Tide' by ElectricAlice             https://github.com/DiegoF824/ao3-everforest
                   'Flat Squares Skin' by milkfatzero  https://ao3-skins.dreamwidth.org/6156.html
- */
+";
+}
 
 :root {
   --margins-header: 1rem;
@@ -3206,7 +3200,7 @@ img[src$="/images/skins/iconsets/default/icon_collection.png"] {
 .index .mystery .icon {
   box-sizing: border-box;
   border: var(--border-width) solid var(--icon-border2);
-  box-shadow: inset 0 0 0 3px #FFFFFF;
+  box-shadow: inset 0 0 0 3px #d3c6aa;
   background: url("https://wolfbatcat.github.io/ao3-rose-pine/assets/zerafina-icon-anon-01.png"),
         var(--int-btn-hgl-bg);
   background-color: var(--icon-id);

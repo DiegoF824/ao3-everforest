@@ -1,38 +1,32 @@
-/*
- * Everforest Dark Hard for AO3
- * Adaptation and maintenance: NeNekokun
- * Based on: Rosé Pine AO3 skin by BlackBatCat
- * Original repository: https://github.com/Wolfbatcat/ao3-rose-pine
- * Original base: neos by ZerafinaCSS, https://github.com/ZerafinaCSS/neos
- * Current repository: https://github.com/DiegoF824/ao3-everforest
- */
-/*
+.site-skin-metadata {
+  content: "
 ==============================================================
 
-                   🌲🌲🌲 Everforest Dark Hard Tags 🌲🌲🌲
+                   🌲🌲🌲 Everforest Tags 🌲🌲🌲
                   Style B — Platonic Ships
 ==============================================================
 SKIN METADATA
 ==============================================================
 
-  - Skin:         Everforest Dark Hard
+  - Skin:         Everforest
   - Add-on:       Tags - Style B — Platonic Ships
-  - File:         tags_everforest.css
+  - File:         tags_rosepine_b_plat.css
   - Author:       NeNekokun
-  - Tumblr:       blackbatcats (original author)
+  - Tumblr:       blackbatcats
   - License:      MIT
   - Updated:      2026-05-05 02:15 UTC
 
   - Repository:   https://github.com/DiegoF824/ao3-everforest
   - Instructions: https://archiveofourown.org/works/69993411
 
-  - Base:         'Rosé Pine' by BlackBatCat               https://archiveofourown.org/works/69993411
+  - Base:         'Everforest' by NeNekokun               https://archiveofourown.org/works/69993411
 
   - Inspired by:  'Archive 2.0 skin' by AO3                 https://archiveofourown.org/skins/873
-                  'Tide' by ElectricAlice                   https://github.com/electricalice/Ao3-tide
+                  'Tide' by ElectricAlice                   https://github.com/DiegoF824/ao3-everforest
                   'Flat Squares Skin' by milkfatzero        https://ao3-skins.dreamwidth.org/6156.html
 
- */
+";
+}
 
 :root {
   --tag-default-txt: #9da9a0;
