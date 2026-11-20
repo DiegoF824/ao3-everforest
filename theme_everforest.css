@@ -121,8 +121,8 @@ SKIN METADATA
   --success-txt: #a7c080;
   --caution-txt: #dbbc7f;
   --alert-txt: #e67e80;
-  --header-icon: brightness(0) saturate(100%) invert(89%) sepia(6%) saturate(312%) hue-rotate(181deg) brightness(93%) contrast(91%);
-  --header-icon-hgl: brightness(0) saturate(100%) invert(100%);
+  --header-icon: brightness(0) saturate(100%) invert(50%) sepia(100%) saturate(61.717%) hue-rotate(2.906deg) brightness(128.261%);
+  --header-icon-hgl: brightness(0) saturate(100%) invert(50%) sepia(100%) saturate(121.021%) hue-rotate(41.557deg) brightness(117.501%);
   --kudos-icon: var(--header-icon);
   --lock-icon: var(--header-icon);
   --tag-filter: brightness(1.05);
