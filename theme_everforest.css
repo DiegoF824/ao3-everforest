@@ -1,0 +1,139 @@
+/*
+ * Everforest Dark Hard for AO3
+ * Adaptation and maintenance: NeNekokun
+ * Based on: Rosé Pine AO3 skin by BlackBatCat
+ * Original repository: https://github.com/Wolfbatcat/ao3-rose-pine
+ * Original base: neos by ZerafinaCSS, https://github.com/ZerafinaCSS/neos
+ * Current repository: https://github.com/DiegoF824/ao3-everforest
+ */
+/*
+==============================================================
+
+                      🌲🌲🌲 Everforest Dark Hard 🌲🌲🌲
+                     Theme: Everforest Dark Hard
+                      By NeNekokun
+
+==============================================================
+SKIN METADATA
+==============================================================
+
+  - Skin:         Everforest Dark Hard
+  - Theme:        Everforest Dark Hard
+  - File:         theme_everforest.css
+  - Author:       NeNekokun
+  - Tumblr:       blackbatcats (original author)
+  - License:      MIT
+  - Updated:      2026-05-05 02:15 UTC
+
+  - Repository:   https://github.com/DiegoF824/ao3-everforest
+  - Instructions: https://archiveofourown.org/works/69993411
+
+  - Base:         'neos' by ZerafinaCSS               https://archiveofourown.org/works/65849527
+
+  - Inspired by:  'Archive 2.0 skin' by AO3           https://archiveofourown.org/skins/873
+                  'Tide' by ElectricAlice             https://github.com/electricalice/Ao3-tide
+                  'Flat Squares Skin' by milkfatzero  https://ao3-skins.dreamwidth.org/6156.html
+ */
+
+:root {
+  --bg1: #272e33;
+  --bg2: #2e383c;
+  --bg3: #272e33;
+  --bg4: var(--bg5);
+  --bg5: #374145;
+  --bg6: #414b50;
+  --bg7: #2e383c;
+  --border1: #414b50;
+  --border2: #495156;
+  --border3: #4f5b58;
+  --border4: #7a8478;
+  --shadow: 0 0.2em 0.4em rgba(0,0,0,0.30);
+  --shadow-header: 0 8px 28px rgba(0,0,0,0.45);
+  --shadow-buttons: 0 3px 8px rgba(0,0,0,0.35);
+  --shadow-box1: 0 8px 28px rgba(0,0,0,0.45);
+  --shadow-box2: 0 3px 10px rgba(0,0,0,0.30);
+  --txt-header: #d3c6aa;
+  --txt-header-hgl: #a7c080;
+  --txt-header-hgl-h1: none;
+  --txt-main: #d3c6aa;
+  --txt-alt1: #d3c6aa;
+  --txt-alt2: #d3c6aa;
+  --link: #a7c080;
+  --link-hgl: #dbbc7f;
+  --link-visited: #d699b6;
+  --int-btn-bg: #414b50;
+  --int-btn-border: #7a8478;
+  --int-btn-txt: var(--txt-main);
+  --int-btn-hgl-bg: #374145;
+  --int-btn-hgl-txt: #d3c6aa;
+  --int-btn-hgl-border: #a7c080;
+  --int-bg: var(--bg5);
+  --int-search: #272e33;
+  --int-current-bg: #374145;
+  --int-current-txt: #d3c6aa;
+  --int-current-border: #a7c080;
+  --int-disabled-bg: #374145;
+  --int-checked: #a7c080;
+  --int-hgl: #a7c080;
+  --int-hgl-bg: #a7c080;
+  --int-hgl-txt: #272e33;
+  --icon-content-complete: #a7c080;
+  --icon-content-incomplete: #dbbc7f;
+  --icon-content-public: #83c092;
+  --icon-content-private: #d699b6;
+  --icon-content-hidden: #859289;
+  --icon-content-rec: #dbbc7f;
+  --icon-rating-gen: #a7c080;
+  --icon-rating-teen: #7fbbb3;
+  --icon-rating-mature: #e69875;
+  --icon-rating-explicit: #e67e80;
+  --icon-relationship-mm: #7fbbb3;
+  --icon-relationship-mf: #a7c080;
+  --icon-relationship-gen: #859289;
+  --icon-relationship-ff: #d699b6;
+  --icon-multi: #d699b6;
+  --icon-relationship-other: #859289;
+  --icon-warning-choose-not: #dbbc7f;
+  --icon-warning-yes: #e67e80;
+  --icon-content-external: #83c092;
+  --icon-bg: var(--int-bg);
+  --icon-id: var(--link);
+  --icon-anon: #7a8478;
+  --icon-border1: #00000025;
+  --icon-border2: var(--border2);
+  --tag-default-bg: #374145;
+  --tag-fandom-bg: #3c4841;
+  --tag-warning-bg: #493b40;
+  --tag-ship-bg: #463f48;
+  --tag-platonic-ship-bg: #384b55;
+  --tag-character-bg: #3c4841;
+  --tag-freeform-bg: #374145;
+  --tag-splash-bg: var(--bg5);
+  --tag-default-txt: #d3c6aa;
+  --tag-fandom-txt: #d3c6aa;
+  --tag-warning-txt: #d3c6aa;
+  --tag-ship-txt: #d3c6aa;
+  --tag-platonic-ship-txt: #d3c6aa;
+  --tag-character-txt: #d3c6aa;
+  --tag-freeform-txt: #d3c6aa;
+  --tag-border: #7a847825;
+  --tag-hgl-bg: #4f5b58;
+  --tag-hgl-txt: #d3c6aa;
+  --tag-hsl-shadow: inset 0 0 0 1px rgba(255,255,255,0.12);
+  --notice-bg: #384b55;
+  --success-bg: #3c4841;
+  --caution-bg: #45443c;
+  --alert-bg: #272e33;
+  --notice-txt: #7fbbb3;
+  --success-txt: #a7c080;
+  --caution-txt: #dbbc7f;
+  --alert-txt: #e67e80;
+  --header-icon: brightness(0) saturate(100%) invert(89%) sepia(6%) saturate(312%) hue-rotate(181deg) brightness(93%) contrast(91%);
+  --header-icon-hgl: brightness(0) saturate(100%) invert(100%);
+  --kudos-icon: var(--header-icon);
+  --lock-icon: var(--header-icon);
+  --tag-filter: brightness(1.05);
+  --stats-icon: var(--header-icon);
+  --stat-chart: invert(92%) saturate(12%) brightness(105%);
+  --rich-txt-editor: none;
+}

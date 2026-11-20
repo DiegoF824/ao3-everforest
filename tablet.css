@@ -1,0 +1,119 @@
+/*
+ * Everforest Dark Hard for AO3
+ * Adaptation and maintenance: NeNekokun
+ * Based on: Rosé Pine AO3 skin by BlackBatCat
+ * Original repository: https://github.com/Wolfbatcat/ao3-rose-pine
+ * Original base: neos by ZerafinaCSS, https://github.com/ZerafinaCSS/neos
+ * Current repository: https://github.com/DiegoF824/ao3-everforest
+ */
+/*
+==============================================================
+
+                    🌲🌲🌲 Everforest Dark Hard 🌲🌲🌲
+          TABLET / MIDSIZE SCREENS (max-width: 62em)
+                      By NeNekokun
+
+==============================================================
+SKIN METADATA
+==============================================================
+
+  - Skin:         Everforest Dark Hard (Card Layout — Tablet)
+  - File:         tablet.css
+  - Author:       NeNekokun
+  - Tumblr:       blackbatcats (original author)
+  - License:      MIT
+  - Updated:      2026-05-12 06:55 UTC
+
+  - Repository:   https://github.com/DiegoF824/ao3-everforest
+  - Instructions: https://archiveofourown.org/works/69993411
+
+  - Base:         'neos' by ZerafinaCSS               https://archiveofourown.org/works/65849527
+
+  - Inspired by:  'Archive 2.0 skin' by AO3           https://archiveofourown.org/skins/873
+                  'Tide' by ElectricAlice             https://github.com/electricalice/Ao3-tide
+                  'Flat Squares Skin' by milkfatzero  https://ao3-skins.dreamwidth.org/6156.html
+ */
+
+#inner {
+  flex-flow: column;
+}
+
+#header .heading {
+  margin-left: var(--margins-narrow);
+}
+
+#login,
+#greeting {
+  margin-right: var(--margins-narrow);
+}
+
+#header .primary {
+  justify-content: center;
+}
+
+#header h2 {
+  text-align: center;
+}
+
+#dashboard,
+#dashboard.own {
+  top: unset;
+  z-index: 2;
+  width: auto;
+  min-width: unset;
+  max-width: unset;
+  height: auto;
+  max-height: unset;
+  overflow: visible;
+  margin: 2% 2% 0 2%;
+  padding: 0;
+  border-bottom: var(--border-width) solid;
+  text-align: center;
+}
+
+#dashboard ul {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0.25em 0;
+  text-align: center;
+}
+
+#dashboard a,
+#dashboard span {
+  display: inline-block;
+  margin-block: var(--border-width);
+}
+
+#dashboard .secondary {
+  position: absolute;
+  left: 50%;
+  width: fit-content;
+  min-width: 40vw;
+  max-width: 75vw;
+  transform: translateX(-50%);
+}
+
+#dashboard .secondary li .current,
+#dashboard .secondary li a {
+  margin: 1px;
+  display: block;
+}
+
+#main,
+#main.dashboard {
+  width: 100%;
+  padding-inline: var(--margins-narrow);
+}
+
+.logged-in .splash>.module {
+  width: 48.5%;
+}
+
+.region:has(ol.pagination.actions) form.filters {
+  margin-bottom: 7.5em !important;
+}
+
+:root {
+  --workskin-width: 100%;
+}
